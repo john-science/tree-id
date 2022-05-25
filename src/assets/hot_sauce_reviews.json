@@ -1,0 +1,281 @@
+[
+{
+"sauce": "Sriracha",
+"brewery": "Hoy Fung Foods",
+"rating": 8,
+"SHU": 2200,
+"times_purchased": 36,
+"thick": "Y",
+"style": "Sriracha",
+"nosort_flavors": "sweet, funk, peppers, garlic",
+"link": "https://www.huyfong.com/"
+},
+{
+"sauce": "Tobasco",
+"brewery": "McIlhenny",
+"rating": 5,
+"SHU": 3750,
+"times_purchased": 0,
+"thick": "N",
+"style": "Louisiana",
+"nosort_flavors": "vinegar, smoke, funk",
+"link": "https://www.tabasco.com/hot-sauces/original-red-sauce/"
+},
+{
+"sauce": "Peri Peri - XX Hot",
+"brewery": "Nando's",
+"rating": 9,
+"SHU": 35000,
+"times_purchased": 2,
+"thick": "Y",
+"style": "Craft",
+"nosort_flavors": "deep, earthy, chiles, onion, spices",
+"link": "https://www.nandosperiperi.com/peri-products/sauces/extra-extra-hot-peri-peri-sauce"
+},
+
+{
+"sauce": "Iguana Gold",
+"brewery": "Half Moon Bay Trading",
+"rating": 10,
+"SHU": 6000,
+"times_purchased": 1,
+"thick": "Y",
+"style": "Craft",
+"nosort_flavors": "mustard, peppers, onion, carrot",
+"link": "https://www.halfmoonbaytrading.com/sauces/iguana-gold-island-pepper-sauce"
+},
+
+{
+"sauce": "Iguana XXX Habanero",
+"brewery": "Half Moon Bay Trading",
+"rating": 8,
+"SHU": 10000,
+"times_purchased": 1,
+"thick": "Y",
+"style": "Craft",
+"nosort_flavors": "peppers, carrots, limes",
+"link": "https://www.halfmoonbaytrading.com/sauces/iguana-xxx-habanero-pepper-sauce"
+},
+
+{
+"sauce": "Iguana Radioactive Atomic",
+"brewery": "Half Moon Bay Trading",
+"rating": 7,
+"SHU": 20000,
+"times_purchased": 1,
+"thick": "Y",
+"style": "Craft",
+"nosort_flavors": "peppers, carrots, limes",
+"link": "https://www.halfmoonbaytrading.com/sauces/iguana-radioactive-atomic-pepper-sauce"
+},
+
+{
+"sauce": "Tears of the Sun Private Reserve",
+"brewery": "High River Sauces",
+"rating": 9,
+"SHU": 6500,
+"times_purchased": 1,
+"thick": "Y",
+"style": "Craft",
+"nosort_flavors": "fruit, funk, mango, peppers",
+"link": "https://highriversauces.com/tears-of-the-sun/"
+},
+
+{
+"sauce": "Howler Monkey Sauce - Hot",
+"brewery": "Panama Hot Sauce",
+"rating": 6,
+"SHU": 7000,
+"times_purchased": 1,
+"thick": "N",
+"style": "Craft",
+"nosort_flavors": "vinegar, peppers, salt-and-pepper",
+"link": "https://www.panamahotsauce.com/"
+},
+
+{
+"sauce": "Ghost Pepper",
+"brewery": "Melinda's",
+"rating": 6,
+"SHU": 45000,
+"times_purchased": 1,
+"thick": "N",
+"style": "Craft",
+"nosort_flavors": "vinegar, peppers, funk",
+"link": "https://melindas.com"
+},
+
+{
+"sauce": "Cholula - Original",
+"brewery": "Spicy Liquid",
+"rating": 8,
+"SHU": 3600,
+"times_purchased": 12,
+"thick": "N",
+"style": "Picante",
+"nosort_flavors": "vinegar, smoky, peppers, funk",
+"link": "https://www.cholula.com/"
+},
+
+{
+"sauce": "Red Habanero",
+"brewery": "El Yucateco",
+"rating": 7,
+"SHU": 5790,
+"times_purchased": 1,
+"thick": "Y",
+"style": "Craft",
+"nosort_flavors": "tomato, peppers, sugar",
+"link": "https://www.elyucateco.com/"
+},
+{
+"sauce": "Green Habanero",
+"brewery": "El Yucateco",
+"rating": 8,
+"SHU": 9000,
+"times_purchased": 1,
+"thick": "Y",
+"style": "Craft",
+"nosort_flavors": "green peppers",
+"link": "https://www.elyucateco.com/"
+},
+{
+"sauce": "Caribbean Habanero",
+"brewery": "El Yucateco",
+"rating": 9,
+"SHU": 5400,
+"times_purchased": 1,
+"thick": "Y",
+"style": "Craft",
+"nosort_flavors": "carrot, onion, pepper",
+"link": "https://www.elyucateco.com/"
+},
+{
+"sauce": "Kutbil-Ik XXXtra Hot Habanero",
+"brewery": "El Yucateco",
+"rating": 8,
+"SHU": 11600,
+"times_purchased": 1,
+"thick": "Y",
+"style": "Craft",
+"nosort_flavors": "tomatoes, onions, pepper, spices",
+"link": "https://www.elyucateco.com/"
+},
+{
+"sauce": "Habanero",
+"brewery": "Yellowbird",
+"rating": 9,
+"SHU": 35000,
+"times_purchased": 3,
+"thick": "Y",
+"style": "Craft",
+"nosort_flavors": "carrot, citrus, habanero, onion",
+"link": "https://www.yellowbirdfoods.com/"
+},
+{
+"sauce": "Fried in Chili Oil",
+"brewery": "Laoganma",
+"rating": 9,
+"SHU": 500,
+"times_purchased": 2,
+"thick": "Y",
+"style": "Chili Oil",
+"nosort_flavors": "peppers, oil",
+"link": "https://www.laoganmausa.com/"
+},
+
+{
+"sauce": "Nopal Cacus",
+"brewery": "Dank Sauce",
+"rating": 10,
+"SHU": 1000,
+"times_purchased": 1,
+"thick": "Y",
+"style": "Craft",
+"nosort_flavors": "tomatillo, cactus, peppers",
+"link": "https://danksauces.com/"
+},
+
+{
+"sauce": "Ghost Pepper",
+"brewery": "The Satanic Temple",
+"rating": 9,
+"SHU": 25000,
+"times_purchased": 1,
+"thick": "Y",
+"style": "Craft",
+"nosort_flavors": "smoky, black pepper, peppers",
+"link": "https://thesatanictemple.com/products/individual-hot-sauce"
+},
+{
+"sauce": "Mongo Habanero",
+"brewery": "The Satanic Temple",
+"rating": 8,
+"SHU": 4000,
+"times_purchased": 1,
+"thick": "N",
+"style": "Craft",
+"nosort_flavors": "mango, peppers, citrus",
+"link": "https://thesatanictemple.com/products/individual-hot-sauce"
+},
+
+{
+"sauce": "Habanero Hot Sauce",
+"brewery": "Secret Aardvark",
+"rating": 8,
+"SHU": 5000,
+"times_purchased": 1,
+"thick": "N",
+"style": "Craft",
+"nosort_flavors": "tomato, onion, spices",
+"link": "https://secretaardvark.com/"
+},
+
+{
+"sauce": "Pumpkin Habanero",
+"brewery": "Haxan",
+"rating": 10,
+"SHU": 3000,
+"times_purchased": 1,
+"thick": "N",
+"style": "Craft",
+"nosort_flavors": "pumpkin, habanero, ginger, garlic, onion",
+"link": "https://haxansauce.com/"
+},
+
+{
+"sauce": "Superhot",
+"brewery": "Splat",
+"rating": 8,
+"SHU": 25000,
+"times_purchased": 1,
+"thick": "N",
+"style": "Craft",
+"nosort_flavors": "peppers, garlic",
+"link": "https://splathotsauce.com/"
+},
+
+{
+"sauce": "Habanero Hot Sauce",
+"brewery": "Kentucky Straight Bourbon",
+"rating": 9,
+"SHU": 2500,
+"times_purchased": 1,
+"thick": "N",
+"style": "Craft",
+"nosort_flavors": "vinegar, lemon juice, bourbon, paprika",
+"link": "https://www.hotsauce.com/Kentucky-Straight-Bourbon-Sauces/"
+},
+
+{
+"sauce": "Ghost Chile",
+"brewery": "CaJohn's Firey Foods",
+"rating": 8,
+"SHU": 5000,
+"times_purchased": 1,
+"thick": "N",
+"style": "Craft",
+"nosort_flavors": "pepper, vinegar, black pepper, onion",
+"link": "https://fartleyfarms.com/maker/cajohns-fiery-foods/"
+}
+]
