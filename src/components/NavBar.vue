@@ -4,14 +4,14 @@
       <tbody>
         <tr class="hidden-table">
           <td>
-            <p class="header-logo"><a href="/pepperhead/">PepperHead</a></p>
+            <p class="header-logo"><a href="/tree-id/">tree-id</a></p>
           </td>
           <td>
             <nav class="nav-global">
               <ul>
-                <li><a href="/pepperhead/">Reviews</a></li>
-                <li><a href="/pepperhead/styles">Styles</a></li>
-                <li><a href="/pepperhead/wanted">Wanted</a></li>
+                <li><a href="/tree-id/">Reviews</a></li>
+                <li><a href="/tree-id/styles">Styles</a></li>
+                <li><a href="/tree-id/wanted">Wanted</a></li>
               </ul>
             </nav>
           </td>
