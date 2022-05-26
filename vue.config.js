@@ -10,7 +10,7 @@ module.exports = {
     'index': {
       entry: './src/entry/main.js',
       template: 'public/index.html',
-      title: 'Hot Sauce Reviews',
+      title: 'Identifying Trees',
     },
     'notes': {
       entry: './src/entry/notes/index.js',

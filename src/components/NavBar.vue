@@ -9,9 +9,8 @@
           <td>
             <nav class="nav-global">
               <ul>
-                <li><a href="/tree-id/">Reviews</a></li>
-                <li><a href="/tree-id/photos">Photos</a></li>
                 <li><a href="/tree-id/notes">Notes</a></li>
+                <li><a href="/tree-id/photos">Photos</a></li>
               </ul>
             </nav>
           </td>
