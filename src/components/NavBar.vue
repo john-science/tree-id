@@ -11,7 +11,7 @@
               <ul>
                 <li><a href="/tree-id/">Reviews</a></li>
                 <li><a href="/tree-id/styles">Styles</a></li>
-                <li><a href="/tree-id/wanted">Wanted</a></li>
+                <li><a href="/tree-id/notes">Notes</a></li>
               </ul>
             </nav>
           </td>

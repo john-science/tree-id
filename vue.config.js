@@ -12,10 +12,10 @@ module.exports = {
       template: 'public/index.html',
       title: 'Hot Sauce Reviews',
     },
-    'wanted': {
-      entry: './src/entry/wanted/index.js',
-      template: 'public/wanted.html',
-      title: 'Sauces I Want',
+    'notes': {
+      entry: './src/entry/notes/index.js',
+      template: 'public/notes.html',
+      title: 'Just my personal notes.',
     },
     'styles': {
       entry: './src/entry/styles/index.js',

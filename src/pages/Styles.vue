@@ -1,5 +1,5 @@
 <template>
-  <div id="wanted">
+  <div id="styles">
     <NavBar />
 
     <h2>Hot Sauce Styles</h2>
