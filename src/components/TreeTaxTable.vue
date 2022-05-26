@@ -29,9 +29,29 @@
 
 
 <script>
+  // TODO: Can I remove the "https://" from the CSV, to save space?
   // All data should be loaded from an external JSON file
-  import rawData from "../assets/tree_tax.json";
-  let rawHeaders = Object.keys(rawData[0]);
+  import rawestData from "../assets/tree_tax.json";
+  let rawHeaders = rawestData[0].split(",");
+  var rawData = [];
+  for (var i=1; i<rawestData.length; i++){
+    let line = rawestData[i].split(",");
+    var newObj = {}
+    for (var j=0; j<rawHeaders.length; j++){
+      newObj[rawHeaders[j]] = line[j];
+    }
+    rawData.push(newObj);
+  }
+
+/**
+// TODO: There are better ways to parse this semi-CSV file.
+const lines = input.split('\n')
+const header = lines[0].split(',')
+const output = lines.slice(1).map(line => {
+  const fields = line.split(',')
+  return Object.fromEntries(header.map((h, i) => [h, fields[i]]))
+})
+*/
 
   export default {
     props: {

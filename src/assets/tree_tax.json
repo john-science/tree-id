@@ -1,28 +1,6 @@
 [
-{
-"clade": "Gymnosperm",
-"family": "Pinaceae",
-"genus": "Aibes",
-"species": "grandis",
-"common": "grand fir",
-"link": "https://en.wikipedia.org/wiki/Abies_grandis"
-},
-
-{
-"clade": "Gymnosperm",
-"family": "Cupressaceae",
-"genus": "Sequoia",
-"species": "sempervirens",
-"common": "coast redwood; California redwood; giant redwood",
-"link": "https://en.wikipedia.org/wiki/Sequoia_sempervirens"
-},
-
-{
-"clade": "Angiosperm",
-"family": "Juglandaceae",
-"genus": "Juglans",
-"species": "nigra",
-"common": "black walnut",
-"link": "https://en.wikipedia.org/wiki/Juglans_nigra"
-}
+"clade,family,genus,species,common,link",
+"Gymnosperm,Pinaceae,Aibes,grandis,grand fir,https://en.wikipedia.org/wiki/Abies_grandis",
+"Gymnosperm,Cupressaceae,Sequoia,sempervirens,coast redwood; California redwood; giant redwood,https://en.wikipedia.org/wiki/Sequoia_sempervirens",
+"Angiosperm,Juglandaceae,Juglans,nigra,black walnut,https://en.wikipedia.org/wiki/Juglans_nigra"
 ]
