@@ -17,10 +17,10 @@ module.exports = {
       template: 'public/notes.html',
       title: 'Just my personal notes.',
     },
-    'styles': {
-      entry: './src/entry/styles/index.js',
-      template: 'public/styles.html',
-      title: 'Styles of Hot Sauces',
+    'photos': {
+      entry: './src/entry/photos/index.js',
+      template: 'public/photos.html',
+      title: 'Just my photos of trees.',
     },
     '404': {
       entry: "./src/entry/404/index.js",
