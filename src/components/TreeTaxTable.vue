@@ -15,14 +15,14 @@
         </th>
       </thead>
       <tbody>
-        <tr v-for="item in filteredData" :key="item.sauce + item.brewery">
+        <tr v-for="item in filteredData" :key="item.genus + item.species">
+          <td v-for="header in headers.slice(0, -2)" :key="header">{{ item[header] }}</td>
           <template v-if="item['link']">
-            <td><a :href="item['link']" target="_blank">{{ item["sauce"] }}</a></td>
+            <td><a :href="item['link']" target="_blank">{{ item["common"] }}</a></td>
           </template>
           <template v-else>
-            <td>{{ item["sauce"] }}</td>
+            <td>{{ item["species"] }}</td>
           </template>
-          <td v-for="header in headers.slice(1, -1)" :key="header">{{ item[header] }}</td>
         </tr>
       </tbody>
     </table>
@@ -32,9 +32,9 @@
 
 <script>
   // All data should be loaded from an external JSON file
-  import rawData from "../assets/hot_sauce_reviews.json";
+  import rawData from "../assets/tree_tax.json";
   let rawHeaders = Object.keys(rawData[0]);
-  const noSortStr = "nosort_";
+  const noSortStr = "-";
 
   export default {
     props: {
@@ -85,9 +85,6 @@
     },
     filters: {
       capitalize: function(str) {
-        if (str.toUpperCase() === "SHU") {
-          return "~SHU";
-        }
         return str.replace(noSortStr, "").replaceAll("_", " ").replace(/\b\w/g, (c) => c.toUpperCase());
       }
     },

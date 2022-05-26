@@ -6,15 +6,8 @@
     <h3>on identifying trees</h3>
     <div class="center-it">
       <ul class="big-list">
-        <li v-for="item in data" :key="item">
-          <template v-if="item.link">
-            <a :href="item['link']" target="_blank">{{ item.brewery }}</a>
-          </template>
-          <template v-else>
-            {{ item.brewery }}
-          </template>
-          - {{ item.sauce }}
-        </li>
+        <li>stuff</li>
+        <li>things</li>
       </ul>
     </div>
   </div>
