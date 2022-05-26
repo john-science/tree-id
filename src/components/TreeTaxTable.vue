@@ -9,9 +9,7 @@
       <thead>
         <th v-for="header in headers.slice(0, -1)" :key="header" @click="sortBy(header)" :class="{ active: sortKey == header }">
           {{ header | capitalize }}
-        <template v-if="!noSorts.includes(header)">
-          <span class="arrow" :class="sortOrders[header] > 0 ? 'asc' : 'dsc'"></span>
-        </template>
+        <span class="arrow" :class="sortOrders[header] > 0 ? 'asc' : 'dsc'"></span>
         </th>
       </thead>
       <tbody>
@@ -34,7 +32,6 @@
   // All data should be loaded from an external JSON file
   import rawData from "../assets/tree_tax.json";
   let rawHeaders = Object.keys(rawData[0]);
-  const noSortStr = "-";
 
   export default {
     props: {
@@ -43,7 +40,6 @@
     data: function() {
       this.headers = rawHeaders;
       this.sortKey = "";
-      this.noSorts = rawHeaders.filter(word => word.startsWith(noSortStr));
       var sortOrders = {};
       this.headers.forEach(function(key) {
         sortOrders[key] = 1;
@@ -85,15 +81,13 @@
     },
     filters: {
       capitalize: function(str) {
-        return str.replace(noSortStr, "").replaceAll("_", " ").replace(/\b\w/g, (c) => c.toUpperCase());
+        return str.replaceAll("_", " ").replace(/\b\w/g, (c) => c.toUpperCase());
       }
     },
     methods: {
       sortBy: function(key) {
-        if (!this.noSorts.includes(key)) {
-          this.sortKey = key;
-          this.sortOrders[key] = this.sortOrders[key] * -1;
-        }
+        this.sortKey = key;
+        this.sortOrders[key] = this.sortOrders[key] * -1;
       }
     }
   };
