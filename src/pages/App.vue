@@ -2,14 +2,11 @@
   <div id="app">
     <NavBar />
 
-    <h2>Hot Sauce Reviews</h2>
-    <p>by Some Pepper Head</p>
+    <h2>Identifying Trees</h2>
     <br />
 
     <HotSauceTable />
 
-    <br />
-    <p>The above are just, like... my opinions, man.</p>
     <br />
   </div>
 </template>
