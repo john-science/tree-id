@@ -2,6 +2,7 @@
   --pepper-red:#9f2a00;
   --pepper-green:green;
 }
+/* TODO: These don't need to be named "pepper", also I'm not sure about red as a color. */
 
 html {
   background-color:rgb(1,4,9);
