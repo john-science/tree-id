@@ -16,7 +16,7 @@ def main():
             print(line.strip())
             exit(1)
 
-    print("Validating that the first 4 columns have values...")
+    print("Validating the taxonmy is complete...")
     for line in lines:
         bits = line.strip().split(",")
         assert len(bits[0].strip()), line
@@ -40,7 +40,12 @@ def main():
         assert gs not in all_gs, line
         all_gs.add(gs)
 
-    print("...Valid!\n\n")
+    print("Validating that there are no sub-species...")
+    for line in lines:
+        bits = line.strip().split(",")
+        assert " " not in bits[3].strip(), line
+
+    print("\n...Valid!\n\n")
 
 
 if __name__ == "__main__":
