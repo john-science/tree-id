@@ -29,6 +29,7 @@
 
 
 <script>
+  // TODO: Can I put the common names each on their own line (in the same cell)?
   // TODO: Can I remove the "https://" from the CSV, to save space?
   // All data should be loaded from an external JSON file
   import rawestData from "../assets/tree_tax.json";
