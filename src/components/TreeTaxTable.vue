@@ -37,6 +37,9 @@
   var rawData = [];
   for (var i=1; i<rawestData.length; i++){
     let line = rawestData[i].split(",");
+    if (line[4].trim().length == 0) {
+      line[4] = line[2] + " " + line[3]
+    }
     var newObj = {}
     for (var j=0; j<rawHeaders.length; j++){
       newObj[rawHeaders[j]] = line[j];

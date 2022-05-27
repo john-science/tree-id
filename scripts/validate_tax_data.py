@@ -16,6 +16,14 @@ def main():
             print(line.strip())
             exit(1)
 
+    print("Validating that the first 4 columns have values...")
+    for line in lines:
+        bits = line.strip().split(",")
+        assert len(bits[0].strip()), line
+        assert len(bits[1].strip()), line
+        assert len(bits[2].strip()), line
+        assert len(bits[3].strip()), line
+
     print("Validating the taxonomic capitalization...")
     for line in lines:
         bits = line.strip().split(",")
