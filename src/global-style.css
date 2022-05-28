@@ -1,8 +1,8 @@
 :root {
-  --pepper-red:#9f2a00;
-  --pepper-green:green;
+  --apple-red:#9f2a00;
+  --tree-green:green;
 }
-/* TODO: These don't need to be named "pepper", also I'm not sure about red as a color. */
+/* TODO: I'm not sure about red as a color. */
 
 html {
   background-color:rgb(1,4,9);
@@ -50,11 +50,11 @@ h3,h4 {
 }
 
 a:active, a:link, a:visited {
-  color:var(--pepper-green);
+  color:var(--tree-green);
   text-decoration:none;
 }
 
 a:hover {
-  color:var(--pepper-red);
+  color:var(--apple-red);
   text-decoration:none;
 }
