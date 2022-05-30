@@ -135,7 +135,7 @@ tr:hover {
 }
 
 th {
-  background-color: #9f2a00;
+  background-color: green;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;

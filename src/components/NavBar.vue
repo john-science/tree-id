@@ -28,7 +28,7 @@
   background-color:#191919;
   border-bottom-style:solid;
   border-bottom-width:1px;
-  border-color:#9f2a00;
+  border-color:green;
 }
 
 .header-logo {
