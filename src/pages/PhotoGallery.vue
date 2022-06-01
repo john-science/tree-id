@@ -14,7 +14,7 @@
 
     <span v-for="photo in photos" :key="photo">
       <br/>
-      <h4>{{ photo.split("/")[1].split(".")[0].replace("_", " ").replace("_", " - ").replace("_", " ") }}</h4>
+      <h4>{{ photo.split("/")[1].split(".")[0].replace("_", " ").replace("_", " - ").replaceAll("_", " ") }}</h4>
       <img :src="require(`../assets/photos/${photo}`)"/>
       <br/>
     </span>
