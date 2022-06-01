@@ -19,7 +19,7 @@
         <tr v-for="item in filteredData" :key="item.genus + item.species">
           <td v-for="header in headers.slice(0, -2)" :key="header">{{ item[header] }}</td>
           <template v-if="item['link']">
-            <td><a :href="item['link']" target="_blank">{{ item["common"] }}</a></td>
+            <td><a :href="'/tree-id/photogallery?gs=' + item['genus'] + '_' + item['species']" target="_blank">{{ item["common"] }}</a></td>
           </template>
           <template v-else>
             <td>{{ item["common"] }}</td>
