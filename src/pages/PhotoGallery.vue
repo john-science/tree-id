@@ -3,13 +3,14 @@
     <NavBar />
 
     <h2>Photos of Trees, by Species</h2>
-    <p class="not-too-wide">My going theory is that a good way to get better at identifying trees is to do it. So, these pictures probably won't be high art, they are meant to help me get better at identifying trees.</p>
+    <p class="not-too-wide">TODO</p>
     <p>Please Note: These photos are my own work, and I reserve all copyright privileges to them.</p>
     <br/>
     <br/>
-    <ul v-for="photo in photos" :key="photo">
-      <li>{{ photo }}</li>
-    </ul>
+    <span v-for="photo in photos" :key="photo">
+      <p>{{ photo }}</p>
+      <img :src="require(`../assets/photos/${photo}`)"/>
+    </span>
 
   </div>
 </template>
@@ -32,7 +33,7 @@
     for (var i=0; i < photoz.length ; i++) {
       let pp = photoz[i];
       if (pp.indexOf(thisSpecies) >= 0) {
-        thesePhotos.push(pp);
+        thesePhotos.push(pp.split("./")[1]);
       }
     }
   }
