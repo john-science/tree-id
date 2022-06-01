@@ -1,3 +1,13 @@
+const path = require('path');
+
+// Handle the special prod-vs-dev pathing needs
+function getPublicPath() {
+  switch (process.env.NODE_ENV) {
+    case 'dev': return path.join(__dirname, 'dist')
+    case 'development': return path.join(__dirname, 'dist')
+    default: return '/tree-id/'
+  }
+}
 
 module.exports = {
   chainWebpack: config => {
@@ -5,7 +15,7 @@ module.exports = {
       .maxEntrypointSize(440000)
       .maxAssetSize(440000)
   },
-  publicPath: './',
+  publicPath: getPublicPath(),
   pages: {
     'index': {
       entry: './src/entry/main.js',

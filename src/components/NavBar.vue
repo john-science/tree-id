@@ -4,13 +4,13 @@
       <tbody>
         <tr class="hidden-table">
           <td>
-            <p class="header-logo"><a href="/tree-id/">tree-id</a></p>
+            <p class="header-logo"><a href="index.html">tree-id</a></p>
           </td>
           <td>
             <nav class="nav-global">
               <ul>
-                <li><a href="/tree-id/notes">Notes</a></li>
-                <li><a href="/tree-id/photos">Photos</a></li>
+                <li><a href="notes.html">Notes</a></li>
+                <li><a href="photos.html">Photos</a></li>
               </ul>
             </nav>
           </td>
