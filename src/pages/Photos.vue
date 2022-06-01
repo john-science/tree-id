@@ -35,8 +35,7 @@
   import "@/global-style.css";
 
   // grab all the photos, inside folders called Genus_species
-  const photos = require.context('@/assets/photos/', true, /\.(png|jpe?g)$/i).keys()
-  console.log(photos)
+  const photos = require.context('@/assets/photos/', true, /\.(png|jpe?g)$/i).keys();
   var gs = new Set();
   for (var pi=0; pi< photos.length ; pi++) {
     let pp = photos[pi].split("./")[1].split("/")[0];

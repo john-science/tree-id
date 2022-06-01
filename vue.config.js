@@ -17,6 +17,11 @@ module.exports = {
       template: 'public/notes.html',
       title: 'Just my personal notes.',
     },
+    'photogallery': {
+      entry: './src/entry/photogallery/index.js',
+      template: 'public/photogallery.html',
+      title: 'Photos of a single tree species.',
+    },
     'photos': {
       entry: './src/entry/photos/index.js',
       template: 'public/photos.html',

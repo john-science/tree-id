@@ -30,6 +30,7 @@
 
 <script>
   // TODO: Can I put the common names each on their own line (in the same cell)?
+
   // Data should be loaded from an external JSON file (nearly a CSV).
   import rawestData from "../assets/tree_tax.json";
   let rawHeaders = rawestData[0].split(",");
