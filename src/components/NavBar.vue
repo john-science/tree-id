@@ -31,6 +31,7 @@
   border-color:green;
 }
 
+/* There is still a lot of red here */
 .header-logo {
   font-family: monospace, monospace;
   margin:0px;

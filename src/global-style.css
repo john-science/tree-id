@@ -1,8 +1,7 @@
 :root {
-  --apple-red:#9f2a00;
+  --moss-green:#39FF14;
   --tree-green:green;
 }
-/* TODO: I'm not sure about red as a color. */
 
 html {
   background-color:rgb(1,4,9);
@@ -27,6 +26,7 @@ h2,h4 {
   font-weight:normal;
 }
 
+/* There is still a lot of red here */
 h1,h3 {
   margin:0;
   color:#ffc9c7;
@@ -55,6 +55,6 @@ a:active, a:link, a:visited {
 }
 
 a:hover {
-  color:var(--apple-red);
+  color:var(--moss-green);
   text-decoration:none;
 }
