@@ -3,13 +3,23 @@
     <NavBar />
 
     <h2>Just my personal notes</h2>
-    <h3>on identifying trees</h3>
-    <div class="center-it">
-      <ul class="big-list">
-        <li>stuff</li>
-        <li>things</li>
-      </ul>
-    </div>
+    <p>These are just my notes while I learn to ID trees.</p>
+    <p>The Arbor Day website is a good resource for IDing trees in North America. (For now, I’m confining this work to just the trees of North America. It’s where I live, and is a big enough topic for
+    one mortal.)</p>
+
+    <h2>High-Level Taxonomy</h2>
+    <p>All trees are either Gymnosperms / softwoods or Angiosperms / hardwoods.</p>
+    <p>Angiosperms are flowering plants. They are relatively newer than Gymnosperms, and are really catching on. Between 140 and 120 million years ago flowering plants started to spread and they
+    haven’t stopped since. Apparently, Darwin thought this was quite the mystery.</p>
+    <p>Gymnosperms include: conifers, cycads, and ginko trees. All other trees are Angiosperms.</p>
+    <p>Angiosperms aren’t just flowering, their seeds also have casings.</p>
+
+    <h2>Identifying Conifers</h2>
+    <p>This guide to identifying conifers is just excellent. Worth a second read.</p>
+
+    <h2>Pronouncing Scientific Names</h2>
+
+    <ul><li>“-aceae” is pronounced “A-C-I” or “ay-see-eye”</li></ul>
   </div>
 </template>
 
