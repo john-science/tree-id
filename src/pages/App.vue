@@ -3,11 +3,7 @@
     <NavBar />
 
     <h2>Identifying Trees</h2>
-    <br />
-
     <TreeTaxTable />
-
-    <br />
   </div>
 </template>
 

@@ -1,14 +1,12 @@
 [![Build Status](https://github.com/john-science/tree-id/actions/workflows/deploy.yaml/badge.svg?branch=main)](https://github.com/john-science/tree-id/actions/workflows/deploy.yaml)
 
+
 # tree-id
 
-Just my personal notes trying to learn to identify trees.
+This little web app is meant to be filled with the tools I'm using to learn to identify trees.
 
+As time goes on, and hopefully I learn more, I will hopefully transition this to a web app useful to others learning to identify trees. But I'm not there yet, and so neither is the app.
 
-## Why does this site exists?
-
-1. I like trees.
-2. I want to try out Vue.js.
 
 ## License
 
@@ -20,15 +18,13 @@ If you are using these photos for non-profit, eductational works, please just as
 these photos, if you need.)
 
 
-## Educational Notes
-
-#### Vue.js
+## Vue.js
 
 Well, it's that time again:
 
 > Time to learn another JavaScript Framework.
 
-#### Multi-Page Vue.js Apps
+### Multi-Page Vue.js Apps
 
 This was more work than in needed to be. And very poorly documented on the vue.js site.
 

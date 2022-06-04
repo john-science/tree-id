@@ -37,6 +37,11 @@ module.exports = {
       template: 'public/photos.html',
       title: 'Just my photos of trees.',
     },
+    'tax': {
+      entry: './src/entry/tax/index.js',
+      template: 'public/tax.html',
+      title: 'Taxonomy of tree species.',
+    },
     '404': {
       entry: "./src/entry/404/index.js",
       template: "public/404.html",
