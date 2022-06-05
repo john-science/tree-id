@@ -36,9 +36,6 @@
 </script>
 
 <style scoped>
-.center-it {
-  text-align:center;
-}
 .big-list {
   display:inline-block;
   text-align: left;
