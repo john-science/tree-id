@@ -1,8 +1,6 @@
 <template>
   <div id="tax">
     <NavBar />
-
-    <h2>Tree Taxonomy</h2>
     <TreeTaxTable />
   </div>
 </template>

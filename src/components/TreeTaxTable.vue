@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h2>{{ filteredData.length }} Tree Species</h2>
     <br />
     <form id="search">
       Search <input name="query" class="inputClass" v-model="searchQuery" />
@@ -31,7 +32,6 @@
 
 
 <script>
-  // TODO: Can I put the number currently in the table at the top (including search).
   // TODO: Can I put the common names each on their own line (in the same cell)?
 
   // Data should be loaded from an external JSON file (nearly a CSV).
