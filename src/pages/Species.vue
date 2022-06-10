@@ -1,20 +1,20 @@
 <template>
-  <div id="tax">
+  <div id="species">
     <NavBar />
-    <TreeTaxTable />
+    <TreeSpeciesTable />
   </div>
 </template>
 
 <script>
   import NavBar from '@/components/NavBar.vue';
-  import TreeTaxTable from '@/components/TreeTaxTable.vue';
+  import TreeSpeciesTable from '@/components/TreeSpeciesTable.vue';
   import "@/global-style.css";
 
   export default {
-    name: 'Tax',
+    name: 'Species',
     components: {
       NavBar,
-      TreeTaxTable
+      TreeSpeciesTable
     },
   };
 </script>

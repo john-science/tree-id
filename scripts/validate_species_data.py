@@ -1,7 +1,7 @@
 """
 Helper script, to validate the massive tree taxomy data CSV
 """
-FILE_PATH = "src/assets/tree_tax.json"
+FILE_PATH = "src/assets/tree_species.json"
 NUM_COLUMNS = 6
 
 

@@ -11,7 +11,7 @@
               <ul>
                 <li><a href="notes.html">Notes</a></li>
                 <li><a href="photos.html">Photos</a></li>
-                <li><a href="tax.html">Taxonomy</a></li>
+                <li><a href="species.html">Species</a></li>
               </ul>
             </nav>
           </td>

@@ -33,7 +33,7 @@
 
 <script>
   // Data should be loaded from an external JSON file (nearly a CSV).
-  import rawestData from "../assets/tree_tax.json";
+  import rawestData from "../assets/tree_species.json";
   let rawHeaders = rawestData[0].split(",");
   var rawData = [];
   for (var i=1; i<rawestData.length; i++){
