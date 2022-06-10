@@ -16,7 +16,7 @@
       </thead>
       <tbody>
         <tr v-for="item in filteredData" :key="item.family">
-          <td v-for="header in headers" :key="header">{{ item[header] }}</td>
+          <td v-for="header in headers" :key="header"><a :href="wiki(item[header])">{{ item[header] }}</a></td>
         </tr>
       </tbody>
     </table>
@@ -103,8 +103,11 @@
       sortBy: function(key) {
         this.sortKey = key;
         this.sortOrders[key] = this.sortOrders[key] * -1;
+      },
+      wiki: function(s) {
+        return "https://en.wikipedia.org/wiki/" + s;
       }
-    }
+    },
   };
 </script>
 
