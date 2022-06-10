@@ -12,6 +12,7 @@
                 <li><a href="notes.html">Notes</a></li>
                 <li><a href="photos.html">Photos</a></li>
                 <li><a href="species.html">Species</a></li>
+                <li><a href="family.html">Families</a></li>
               </ul>
             </nav>
           </td>

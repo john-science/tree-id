@@ -37,10 +37,15 @@ module.exports = {
       template: 'public/photos.html',
       title: 'Just my photos of trees.',
     },
-    'species': {
-      entry: './src/entry/species/index.js',
-      template: 'public/species.html',
-      title: 'Taxonomy of tree species.',
+    'family': {
+      entry: './src/entry/family/index.js',
+      template: 'public/family.html',
+      title: 'Taxonomy of tree families.',
+    },
+    'species': {                                                                                                                                                                                                   
+      entry: './src/entry/species/index.js',                                                                                                                                                                       
+      template: 'public/species.html',                                                                                                                                                                             
+      title: 'Taxonomy of tree species.',                                                                                                                                                                          
     },
     '404': {
       entry: "./src/entry/404/index.js",
