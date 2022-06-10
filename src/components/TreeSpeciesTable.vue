@@ -72,7 +72,7 @@
         var sortKey = this.sortKey;
         var order = this.sortOrders[sortKey] || 1;
         var data = this.listData;
-        var sQuery = this.searchQuery;
+        var sQuery = this.searchQuery.toLowerCase();
 
         if (sQuery) {
           data = data.filter(function(row) {
