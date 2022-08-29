@@ -7,10 +7,10 @@
 
     <div class="app-content">
       <ul class="app-list">
-        <li><a href="species.html">Species of Trees</a> - all tree species, with Wiki links</li>
-        <li><a href="family.html">Families of Trees</a> - all tree families, with Wiki links</li>
-        <li>My <a href="photos.html">Photos of Tree Species</a> - useful photos for identifying trees by species</li>
-        <li>Just <a href="notes.html">my stupid notes</a> while I learn about trees</li>
+        <li><a href="species.html">Species</a> - all tree species, with Wiki links</li>
+        <li><a href="family.html">Families</a> - all tree families, with Wiki links</li>
+        <li><a href="photos.html">Photos</a> - my own, original photos of trees, by species</li>
+        <li><a href="notes.html">Notes</a> - my own, simple, notes to help me learn</li>
       </ul>
     </div>
 

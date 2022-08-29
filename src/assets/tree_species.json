@@ -1,5 +1,6 @@
 [
 "clade,family,genus,species,common,link",
+"Angiosperm,Acanthaceae,Avicennia,germinans,black mangrove,https://en.wikipedia.org/wiki/Avicennia_germinans",
 "Angiosperm,Aceraceae,Acer,amplum,broad maple,https://en.wikipedia.org/wiki/Acer_amplum",
 "Angiosperm,Aceraceae,Acer,argutum,deep-veined maple,https://en.wikipedia.org/wiki/Acer_argutum",
 "Angiosperm,Aceraceae,Acer,barbatum,Acer saccharum floridanum; Florida maple; southern sugar maple,https://en.wikipedia.org/wiki/Acer_saccharum",
@@ -306,6 +307,7 @@
 "Angiosperm,Boraginaceae,Bourreria,ovata,Bahamian strongbark,",
 "Angiosperm,Boraginaceae,Bourreria,radula,rough strongbark,",
 "Angiosperm,Boraginaceae,Cordia,alliodora,capa prieto,https://en.wikipedia.org/wiki/Cordia_alliodora",
+"Angiosperm,Burseraceae,Bursera,graveolens,holy stick, incense tree,https://en.wikipedia.org/wiki/Bursera_graveolens",
 "Angiosperm,Burseraceae,Bursera,simaruba,gumbo-limbo; West Indian birch; tourist tree,https://en.wikipedia.org/wiki/Bursera_simaruba",
 "Angiosperm,Burseraceae,Dacryodes,excelsa,tabonuco,https://en.wikipedia.org/wiki/Dacryodes_excelsa",
 "Angiosperm,Canellaceae,Canella,winterana,pepper cinnamon; cinnamonbark; winter cinnamon,https://en.wikipedia.org/wiki/Canella_winterana",
@@ -406,7 +408,7 @@
 "Angiosperm,Euphorbiaceae,Euphorbia,tirucalli,pencil tree,https://en.wikipedia.org/wiki/Euphorbia_tirucalli",
 "Angiosperm,Euphorbiaceae,Gymnanthes,lucida,crabwood,https://en.wikipedia.org/wiki/Gymnanthes_lucida",
 "Angiosperm,Euphorbiaceae,Hevea,brasiliensis,Pará rubber tree; rubber tree,https://en.wikipedia.org/wiki/Hevea_brasiliensis",
-"Angiosperm,Euphorbiaceae,Hippomane,mancinella,manchineel,https://en.wikipedia.org/wiki/Hippomane_mancinella",
+"Angiosperm,Euphorbiaceae,Hippomane,mancinella,manchineel; poison apple tree; death apple tree,https://en.wikipedia.org/wiki/Hippomane_mancinella",
 "Angiosperm,Euphorbiaceae,Manihot,esculenta,cassava; manioc; manihot,https://en.wikipedia.org/wiki/Manihot_esculenta",
 "Angiosperm,Euphorbiaceae,Manihot,grahamii,wild cassava; Graham's cassava,https://en.wikipedia.org/wiki/Manihot_grahamii",
 "Angiosperm,Euphorbiaceae,Sapium,sebiferum,Chinese tallow tree,https://en.wikipedia.org/wiki/Sapium_sebiferum",
