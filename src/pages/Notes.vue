@@ -15,7 +15,7 @@
     <p>Angiosperms aren’t just flowering, their seeds also have casings.</p>
 
     <h3>Identifying Conifers</h3>
-    <p>This guide to identifying conifers is just excellent. Worth a second read.</p>
+    <p><a href="https://leafyplace.com/identifying-conifers-pine-fir-spruce/">This guide</a> to identifying conifers is just excellent. Worth a second read.</p>
 
     <h3>Pronouncing Scientific Names</h3>
 
