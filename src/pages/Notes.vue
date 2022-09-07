@@ -4,7 +4,7 @@
 
     <h2>Just my personal notes</h2>
     <p>These are just my notes while I learn to ID trees.</p>
-    <p>The Arbor Day website is a good resource for IDing trees in North America. (For now, I’m confining this work to just the trees of North America. It’s where I live, and is a big enough topic for
+    <p>The <a href="https://www.arborday.org/trees/whattree/">Arbor Day website</a> is a good resource for IDing trees in North America. (For now, I’m confining this work to just the trees of North America. It’s where I live, and is a big enough topic for
     one mortal.)</p>
 
     <h3>High-Level Taxonomy</h3>
