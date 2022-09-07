@@ -40,4 +40,13 @@
   display:inline-block;
   text-align: left;
 }
+p {
+  max-width: 600px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul {
+  list-style-type: none;
+}
 </style>
